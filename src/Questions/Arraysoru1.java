@@ -1,7 +1,6 @@
 package Questions;
 
-import java.util.Arrays;
-import java.util.Collection;
+import java.util.*;
 
 public class Arraysoru1 {
     public static void main(String[] args) {
@@ -14,10 +13,22 @@ public class Arraysoru1 {
             output:
                  {10, 5, 1, 0, 0, 0}
          */
-
-        int []array = {10, 0, 5, 0, 1, 0};
+        System.out.println("------Collection ile terse cevirme---------");
+        int[] array = {10, 0, 5, 0, 1, 0};
         Arrays.sort(array);
+        List<Integer> sayilar = new ArrayList<>();
+        for (int i = 0; i < array.length; i++) {
+            sayilar.add(array[i]);
 
+        }
+        Collections.reverse(sayilar);
+        System.out.println(sayilar);
+
+
+
+
+       int[] array1 = {10, 0, 5, 0, 1, 0};
+        Arrays.sort(array);
         int[] tersArray=new int[array.length];
         int a=0;
         for (int i = 0; i < array.length; i++) {
@@ -28,4 +39,4 @@ public class Arraysoru1 {
         }
         System.out.println(Arrays.toString(tersArray));
     }
-}
+    }
