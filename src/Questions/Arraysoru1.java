@@ -27,13 +27,13 @@ public class Arraysoru1 {
 
 
 
-       int[] array1 = {10, 0, 5, 0, 1, 0};
+       int[] array1 = {10, 1, 5, 1, 2, 1};
         Arrays.sort(array);
         int[] tersArray=new int[array.length];
         int a=0;
         for (int i = 0; i < array.length; i++) {
-            if (array[i]>0){
-                tersArray[a++]=array[i];
+            if (array1[i]>1){
+                tersArray[a++]=array1[i];
 
             }
         }

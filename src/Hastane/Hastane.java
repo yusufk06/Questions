@@ -10,7 +10,7 @@ public class Hastane {
     public String toString() {
         return "adSoyad='" + adSoyad + '\'' +
                 ", tcNo='" + tcNo + '\'' +
-                ", bolum='" + bolum + '}';
+                ", bolum='" + bolum +" ";
     }
 
     public String getAdSoyad() {

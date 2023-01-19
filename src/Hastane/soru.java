@@ -7,8 +7,8 @@ public class soru {
 
 	Doktor: Ad-Soyad,  kimlik No, bölüm, ve sicil No, Maas bilgileri içermelidir.
 	Hemsire: Ad-Soyad,  kimlik No, bölüm,sigorta,    bilgileri içermelidir.
-    Hasta Bakıcı: Ad-Soyad,  kimlik No, bölüm, ogrenim durumu, ise baslama tarihi
-2.	Program başladığında Kullanıcıya, Doktor,Hemsire ve Hasta Bakıcı işlemlerini seçebilmesi için aşağıdaki gibi bir menü gösterilsin.
+    Hasta Bakıcı: baslama tarihi
+2.	Program başladığında Kullanıcıya, Doktor,Hemsire ve HAd-Soyad,  kimlik No, bölüm, ogrenim durumu, ise asta Bakıcı işlemlerini seçebilmesi için aşağıdaki gibi bir menü gösterilsin.
 
 	====================================
 	 HASTANE YÖNETİM PANELİ
